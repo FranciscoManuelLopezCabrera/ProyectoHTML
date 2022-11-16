@@ -6,24 +6,60 @@
     <meta charset="utf-8">
     <link href="../CSS/main.css" rel="stylesheet" />
     <link href="../CSS/navegador.css" rel="stylesheet" />
-    <link href="../CSS/.css" rel="stylesheet" />
+    <link href="../CSS/principal.css" rel="stylesheet" />
     <link href="../CSS/.css" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="../SRC/favicon.ico" />
 </head>
 
 <body>
-    <!--Encabezado-->
+    <!--NAVEGADORRRR-->
     <nav class="navegador">
         <ul>
-            <li><a href="#"><img src="../SRC/icono.png" width="30px"></a></li>
+            <li><a href="#" id="dronGif"><img src="../SRC/dron.gif" width="80px"></a></li>
             <li><a href="#">Drones Profesionales</a></li>
             <li><a href="#">Drones Principiantes</a></li>
             <li><a href="#">Accesorios y recambios</a></li>
             <li><a href="#">Cursos</a></li>
-            <li><a id="lupa" href="#"><img src="../SRC/lupa.png">lupa</a></li>
-            <li><a id="avatar" href="#"><img src="../SRC/avatar.png">avatar</a></li>
+            <li><a id="lupa" href="#"><img src="../SRC/carrito.png" width="40px"></a></li>
+            <li><a id="avatar" href="#"><img src="../SRC/avatar.png" width="40px"></a></li>
         </ul>
     </nav>
+    <!--Slider-->
+    <div class="slide">
+        <div class="slide-inner">
+            <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden=""
+                checked="checked">
+            <div class="slide-item">
+                <img src="../SRC/slider1.jpg">
+            </div>
+            <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="../SRC/slider2.jpg">
+            </div>
+            <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="../SRC/slider3.jpg">
+            </div>
+            <label for="slide-3" class="slide-control prev control-1">‹</label>
+            <label for="slide-2" class="slide-control next control-1">›</label>
+            <label for="slide-1" class="slide-control prev control-2">‹</label>
+
+            <label for="slide-3" class="slide-control next control-2">›</label>
+            <label for="slide-2" class="slide-control prev control-3">‹</label>
+            <label for="slide-1" class="slide-control next control-3">›</label>
+            <ol class="slide-indicador">
+                <li>
+                    <label for="slide-1" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-2" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-3" class="slide-circulo">•</label>
+                </li>
+            </ol>
+        </div>
+    </div>
 
 </body>
 
