@@ -1,18 +1,16 @@
-html {
-    overflow: scroll;           
-}
-
+/*CSS para enmaquetar todas las páginas*/
 ::-webkit-scrollbar {
     width: 0px;
-    background: transparent;    /* Convierte la Scroll bar invisible */
-    
+    background: transparent;
+    /* Convierte la Scroll bar invisible */
 }
 
 /*Comun*/
-*{
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;         /* CSS común para todas las paginas */
+* {
+    margin: 0%;
+    padding: 0%;
+    -webkit-box-sizing: border-box;
+    /* CSS común para todas las paginas */
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
