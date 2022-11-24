@@ -78,7 +78,8 @@
 
 .banner{
     width: 100%;
-    height: 500px;
+    height: auto;
+    margin-bottom: 1%;
 }
 
 .banner img{
@@ -88,6 +89,7 @@
 .bannerPrincipiantes{
     width: 100%;
     height: auto;
+    margin-bottom: 1%;
 }
 
 .bannerPrincipiantes img{
@@ -95,7 +97,8 @@
 }
 
 .banner2{
-    margin-top: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .banner2 img{
