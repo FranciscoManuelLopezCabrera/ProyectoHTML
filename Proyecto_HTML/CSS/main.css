@@ -85,9 +85,17 @@
     width: 100%;
 }
 
+.bannerPrincipiantes{
+    width: 100%;
+    height: auto;
+}
+
+.bannerPrincipiantes img{
+    width: 100%;
+}
+
 .banner2{
     margin-top: 1%;
-    margin-bottom: 1%;
 }
 
 .banner2 img{
@@ -197,4 +205,81 @@
 #slide-2:checked~.control-2~.slide-indicador li:nth-child(2) .slide-circulo,
 #slide-3:checked~.control-3~.slide-indicador li:nth-child(3) .slide-circulo {
     color: #428bca;
+}
+
+/*Caja solitaria*/
+
+.cajita2 {
+    width: 100%;
+    display: flex;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.carta2 {
+    width: 100%;
+    margin: 15px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 300ms ease;
+
+}
+
+.carta2:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+
+}
+
+.carta2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.carta2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.carta2 .contenido {
+    padding: 5px;
+    text-align: center;
+}
+
+.carta2 .contenido a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: white;
+    border: 2px solid #eeeeee;
+    border-radius: .2rem;
+    transition: all 400ms ease;
+    color: black;
+
+}
+
+.precio2 {
+    font-size: 18px;
+}
+
+.carta2 .contenido a:hover {
+    background: #eeeeee;
+}
+
+.imagenProducto2 {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.carta2 .contenido a:hover {
+    background: #eeeeee;
+}
+
+.imagenProducto2 {
+    max-width: 100%;
+    max-height: 100%;
 }
