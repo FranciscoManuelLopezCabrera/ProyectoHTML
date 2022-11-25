@@ -4,7 +4,7 @@ html {
     margin: 0;
 }
 
-.bgimg {
+.imagen {
     background-image: url("../SRC/fondoProximo.png");
     height: 100%;
     background-position: center;
@@ -16,7 +16,7 @@ html {
     font-weight: bold;
 }
 
-.middle {
+.texto {
     position: absolute;
     top: 45%;
     left: 50%;
