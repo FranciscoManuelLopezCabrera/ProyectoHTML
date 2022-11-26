@@ -69,6 +69,8 @@
 }
 
 .add-to-cart {
+    font-family: open sans;
+    text-decoration: none;
     display: inline-block;
     width: 100%;
     background: #191847;
