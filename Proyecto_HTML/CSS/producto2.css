@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
-a{
-    text-decoration: none;
-    font-family: open sans;
-}
 .product-card {
-    font-family: open sans;
-    text-decoration: none;
     background: white;
     width: 100%;
     height: 100%;
@@ -45,7 +39,6 @@ a{
 }
 
 .free-shipping {
-
     display: inline-block;
     background: #191847;
     padding: 5px 10px;
@@ -53,10 +46,6 @@ a{
     font-size: 14px;
     color: white;
     font-weight: 400;
-}
-
-.free-shipping a{
-    text-decoration: none;
 }
 
 .product-name {
@@ -80,6 +69,8 @@ a{
 }
 
 .add-to-cart {
+    font-family: open sans;
+    text-decoration: none;
     display: inline-block;
     width: 100%;
     background: #191847;

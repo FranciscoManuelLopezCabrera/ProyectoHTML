@@ -290,6 +290,7 @@
 /*VIDEOS*/
 
 .bannerVideo{
+    margin-top: 70px;
     position:relative;
     display: flex;
     justify-content: center;
