@@ -1107,3 +1107,7 @@ label.radio input:checked + span {
 .spec {
   font-size: 11px;
 }
+
+.box-img img{
+  max-height: 30px;
+}
